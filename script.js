@@ -2,6 +2,7 @@ console.log("Script started");
 
 // Add a task
 function addTask() {
+    console.log("Adding task...");
     /*
     <div id="task1" class="task-item">
         <input type="checkbox" id="checkbox1">
@@ -24,6 +25,7 @@ function addTask() {
         localStorage.setItem("task" + idNum, taskText);
         console.log(localStorage.length);
     }
+    console.log("Code complete!");
 }
 
 function generateIdNum() {
